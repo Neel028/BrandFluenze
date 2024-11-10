@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-inter
+}
+
+@layer base {
+  :root {
+    --theme:17, 93%, 60%, 1;
+    --background:240, 24%, 96%, 1;
+    --background-light:0, 0%, 99%, 1;
+    --card:210, 20%, 96%, 1;
+    --primary:0, 0%, 11%, 1;
+    --secondary:210, 80%, 10%, 1;
+    --muted:0, 0%, 59%, 1;
+    --muted-foreground:218, 18%, 43%, 1;
+    --destructive: 0 84.2% 60.2%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 240 10% 3.9%;
+    --radius: 1rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background;
+  }
+ .container{
+   @apply max-xl:!max-w-full
+ }
+}
+
+@layer utilities {
+  .font-inter{
+     font-family: var(--font-inter);
+  }
+  .font-jakarta{
+     font-family: var(--font-jakarta-sans);
+  }
+  .font-instrument{
+     font-family: var(--font-intrument-serif);
+  }
+  .font-dmsans{
+     font-family: var(--font-dm-sans);
+  }
+}
