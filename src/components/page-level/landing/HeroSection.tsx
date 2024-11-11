@@ -32,7 +32,7 @@ const HeroSection: FC<HeroSectionProps> = ({ }) => {
                                 <div className="bg-wrapper bg-badge-gradiant w-fit mx-auto p-1 rounded-full">
                                     <div className="badge bg-white rounded-lg  px-3 py-1 text-xs flex items-center gap-2">
                                         <span className='w-2 h-2 rounded-full bg-theme inline-block flex-shrink-0'></span>
-                                        <h5>Everything that Brand Needs</h5>
+                                        <h5 className='text-theme font-medium'>Everything that Brand Needs</h5>
                                     </div>
                                 </div>
                                 <div className="info text-center -mt-4">

@@ -15,7 +15,7 @@ interface FaqSectionProps {
 
 const FaqSection: FC<FaqSectionProps> = ({ }) => {
     return (
-        <section>
+        <section id='faq'>
             <Container>
                 <div className="content-part bg-background-light rounded-[28px] relative overflow-hidden z-10">
                     <div className="fancy-shapes">

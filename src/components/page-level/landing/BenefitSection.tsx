@@ -24,7 +24,7 @@ const BenefitSection: FC<BenefitSectionProps> = ({ }) => {
                             <p className='text-xs xs:text-sm sm:text-base font-medium text-primary'>Research department job done in 5 min.</p>
                         </div>
                         <div className="img-content flex justify-center lg:justify-end">
-                            <Image src={"/assets/images/benifit-section-img.png"} alt='strategy-section-img'  width={284} height={282}/>
+                            <Image src={"/assets/images/benifit-section-img.png"} alt='strategy-section-img'  width={568} height={564} className='max-w-[340px] w-full'/>
                         </div>
                     </div>
                 </div>

@@ -11,7 +11,7 @@ interface FeaturesSectionProps {
 
 const FeaturesSection: FC<FeaturesSectionProps> = ({ }) => {
     return (
-        <section>
+        <section id='features-section'>
             <Container>
                 <div className="content-part bg-background-light rounded-[28px] relative overflow-hidden z-10">
                     <div className="fancy-shapes">
