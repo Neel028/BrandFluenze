@@ -13,35 +13,37 @@ interface HeaderProps {
 }
 
 const Header: FC<HeaderProps> = ({ }) => {
-    const scrollToSection = (sectionId:string) => {
+    const scrollToSection = (sectionId: string) => {
         const section = document.getElementById(sectionId);
         if (section) {
-          window.scrollTo({
-            top: section.offsetTop - 20,
-            behavior: 'smooth',
-          });
+            window.scrollTo({
+                top: section.offsetTop - 20,
+                behavior: 'smooth',
+            });
         }
-      }
+    }
     return (
         <Drawer.Root direction="right">
             <header className='py-4 px-6 sm:px-8 md:py-6 md:px-12'>
                 <div className="flex items-center justify-between">
                     <div className="logo-part">
-                        <Image src={"/assets/images/logo-lg.png"} alt='website-logo' width={300} height={34} className='max-w-[150px]' />
+                        <Link href={"/"}>
+                            <Image src={"/assets/images/logo-lg.png"} alt='website-logo' width={300} height={34} className='max-w-[150px]' />
+                        </Link>
                     </div>
                     <div className="menu-part ms-[146px] max-xl:hidden">
                         <ul className='flex items-center gap-10'>
                             <li>
-                                <button  onClick={()=>scrollToSection("features-section")} className='text-base font-medium text-white bg-none' >Benefit</button>
+                                <button onClick={() => scrollToSection("features-section")} className='text-base font-medium text-white bg-none' >Benefit</button>
                             </li>
                             <li>
-                                <button  onClick={()=>scrollToSection("how-it-works")} className='text-base font-medium text-white bg-none' >How it Works</button>
+                                <button onClick={() => scrollToSection("how-it-works")} className='text-base font-medium text-white bg-none' >How it Works</button>
                             </li>
                             <li>
-                                <button  onClick={()=>scrollToSection("faq")} className='text-base font-medium text-white bg-none' >Faqs</button>
+                                <button onClick={() => scrollToSection("faq")} className='text-base font-medium text-white bg-none' >Faqs</button>
                             </li>
                             <li>
-                                <button  onClick={()=>scrollToSection("company")} className='text-base font-medium text-white bg-none' >Company</button>
+                                <button onClick={() => scrollToSection("company")} className='text-base font-medium text-white bg-none' >Company</button>
                             </li>
                         </ul>
                     </div>
@@ -60,7 +62,7 @@ const Header: FC<HeaderProps> = ({ }) => {
                     </Drawer.Trigger>
                 </div>
             </header>
-            <ResponsiveMenuDrawer/>
+            <ResponsiveMenuDrawer />
         </Drawer.Root>
     )
 }

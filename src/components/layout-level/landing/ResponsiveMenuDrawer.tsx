@@ -14,7 +14,6 @@ const ResponsiveMenuDrawer = () => {
           <div className="max-w-md mx-auto">
             <Drawer.Title className="font-medium mb-4 flex-grow flex justify-end">
               <Drawer.Close>
-                
                   <X />
               </Drawer.Close>
             </Drawer.Title>

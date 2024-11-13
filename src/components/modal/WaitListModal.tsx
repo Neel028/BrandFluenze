@@ -58,7 +58,7 @@ const WaitListModal: FC<WaitListModalProps> = ({ open, close }) => {
 
     return (
         <Dialog open={open} onOpenChange={close}>
-            <DialogContent className="sm:max-w-[425px] p-0 gap-0">
+            <DialogContent className="w-[95%] rounded-lg sm:max-w-[425px] p-0 gap-0">
                 <DialogHeader className="py-4 px-6">
                     <DialogTitle className="text-xl">Be the First to Know!</DialogTitle>
                     <DialogDescription className="text-xs leading-[1.6]">
