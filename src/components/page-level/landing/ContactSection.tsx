@@ -18,7 +18,7 @@ const ContactSection: FC<ContactSectionProps> = ({ }) => {
             <section id='company'>
                 <Container>
                     <div className="content-part bg-theme-gradiant rounded-[28px] z-10 relative overflow-hidden">
-                        <div className="fancy-shapes">
+                        <div className="fancy-shapes  max-md:hidden">
                             <div className="circle absolute -z-[1] -left-[200px] -bottom-[300px] w-[600px] h-[600px] border-[70px] border-[#F3F5F7]/5 rounded-full">
                             </div>
                         </div>
