@@ -26,26 +26,28 @@ const Header: FC<HeaderProps> = ({ }) => {
         <Drawer.Root direction="right">
             <header className='py-4 px-6 sm:px-8 md:py-6 md:px-12'>
                 <div className="flex items-center justify-between">
-                    <div className="logo-part">
-                        <Link href={"/"}>
-                            <Image src={"/assets/images/logo-lg.png"} alt='website-logo' width={300} height={34} className='max-w-[150px]' />
-                        </Link>
-                    </div>
-                    <div className="menu-part ms-[146px] max-xl:hidden">
-                        <ul className='flex items-center gap-10'>
-                            <li>
-                                <button onClick={() => scrollToSection("features-section")} className='text-base font-medium text-white bg-none' >Benefit</button>
-                            </li>
-                            <li>
-                                <button onClick={() => scrollToSection("how-it-works")} className='text-base font-medium text-white bg-none' >How it Works</button>
-                            </li>
-                            <li>
-                                <button onClick={() => scrollToSection("faq")} className='text-base font-medium text-white bg-none' >Faqs</button>
-                            </li>
-                            <li>
-                                <button onClick={() => scrollToSection("company")} className='text-base font-medium text-white bg-none' >Company</button>
-                            </li>
-                        </ul>
+                    <div  className="flex items-center justify-between">
+                        <div className="logo-part">
+                            <Link href={"/"}>
+                                <Image src={"/assets/images/logo-lg.png"} alt='website-logo' width={300} height={34} className='max-w-[150px]' />
+                            </Link>
+                        </div>
+                        <div className="menu-part ms-[146px] max-xl:hidden">
+                            <ul className='flex items-center gap-10'>
+                                <li>
+                                    <button onClick={() => scrollToSection("features-section")} className='text-base font-medium text-white bg-none' >Benefit</button>
+                                </li>
+                                <li>
+                                    <button onClick={() => scrollToSection("how-it-works")} className='text-base font-medium text-white bg-none' >How it Works</button>
+                                </li>
+                                <li>
+                                    <button onClick={() => scrollToSection("faq")} className='text-base font-medium text-white bg-none' >Faqs</button>
+                                </li>
+                                <li>
+                                    <button onClick={() => scrollToSection("company")} className='text-base font-medium text-white bg-none' >Company</button>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                     <div className="action-part flex items-center gap-4 max-xl:hidden">
                         <Link href={""} >

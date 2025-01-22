@@ -32,12 +32,12 @@ const HeroSection: FC<HeroSectionProps> = ({ }) => {
                                 <div className="bg-wrapper bg-badge-gradiant w-fit mx-auto p-1 rounded-full">
                                     <div className="badge bg-white rounded-lg  px-3 py-1 text-xs flex items-center gap-2">
                                         <span className='w-2 h-2 rounded-full bg-theme inline-block flex-shrink-0'></span>
-                                        <h5 className='text-theme font-medium'>Everything that Brand Needs</h5>
+                                        <h5 className='text-theme font-bold'>Everything that Brand Needs</h5>
                                     </div>
                                 </div>
                                 <div className="info text-center -mt-4">
                                     <h1 className='text-4xl sm:text-5xl lg:text-6xl 2xl:text-7xl font-bold !leading-[1.2] text-white font-jakarta mb-2'>Connect Your <br /> Brand With Top <span className='font-instrument font-normal italic'>Creator’s</span>  </h1>
-                                    <p className='text-xs xs:text-sm sm:text-base font-medium text-white max-md:hidden block'>Unleash India's Unstoppable 5M+ Creator Force. Skip the middlemen, collaborate directly with top influencers, and Top Talents to watch your ROI explode up to 10X. Ready to turn influence into empire?</p>
+                                    <p className='text-sm max_width_p xs:text-sm sm:text-base font-medium text-white max-md:hidden block'>Unleash India's Unstoppable 5M+ Creator Force. Skip the middlemen, collaborate directly with top influencers, and Top Talents to watch your ROI explode up to 10X. Ready to turn influence into empire?</p>
                                     <p className='text-xs xs:text-sm sm:text-base font-medium text-white max-md:block hidden'>Unleash India's Unstoppable 5M+ Creator Force.  Ready to turn influence into empire?</p>
                                 </div>
                                 <div className="action">

@@ -29,7 +29,7 @@ const FeaturesSection: FC<FeaturesSectionProps> = ({ }) => {
                                 </div>
                             </div>
                             <div className="info text-center -mt-4">
-                                <h1 className='text-4xl sm:text-5xl xl:text-6xl 2xl:text-6xl font-bold !leading-[1.2] text-primary font-jakarta mb-2'>
+                                <h1 className='featuresection_max_width_span text-4xl sm:text-5xl xl:text-6xl 2xl:text-6xl font-bold !leading-[1.2] text-primary font-jakarta mb-2'>
                                     <span className='text-muted'>Tech</span> + Marketing <span className='text-muted'>= Business
                                         On Super </span> Steroids
                                 </h1>

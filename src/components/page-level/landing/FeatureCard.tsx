@@ -12,7 +12,7 @@ const FeatureCard: FC<Feature> = ({ title, description, features,icon }) => {
                 </div>
                 <div className="text">
                     <h3 className='text-lg lg:text-xl font-semibold text-primary mb-1'>{title}</h3>
-                    <p className='text-xs lg:text-sm text-muted-foreground leading-[1.4]'>{description}</p>
+                    <p className='text-xs featuresection_word_spacing lg:text-sm text-muted-foreground leading-[1.4]'>{description}</p>
                 </div>
             </div>
             <div className="bullet-point-list p-4 lg:p-5">
